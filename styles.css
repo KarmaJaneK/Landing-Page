@@ -16,9 +16,7 @@
     color: white;
     margin-top: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: baseline;
+    justify-content: space-evenly;
     padding-left: 150px;
 }
 
@@ -29,16 +27,28 @@
 }
 
 .Block1 img{
-    margin-left: auto;
-max-width: 100%;
-flex-basis: 100px;
-
+width: auto;
+height:250px;
+flex-basis: 1;
+border: 8px solid #3882f6;
+border-radius: 10px;
+margin-bottom: 50px;
+margin-right: 50px;
 }
 
 .Block2 h3{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.Block2 img{
+   width: 200px;
+   height: 200px;
+   flex: 1;
+   border: 8px solid #3882f6;
+   border-radius: 10px;
+
 }
 
 
@@ -69,14 +79,17 @@ flex-basis: 100px;
 
 .Block4 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #3882f6;
     color: #e5e7eb;
     align-items: center;
-    margin: 30px;
+    margin: 60px;
     border-radius: 10px;
+    gap: 40px;
+    justify-content: center;
     
 }
+
 
 .Footer{
     display: flex;
@@ -103,13 +116,15 @@ li{
 
 .Header h4{
     font-size: 24px;
-    color: #f9faf8;
+    color: #f9faf8; 
 }
 
 button{
    background-color:  #3882f6;
    color: white;
    width: 100px;
+   border: 1px solid #f9faf8;
+   border-radius: 2px;
 
 }
 h3{
